@@ -59,14 +59,14 @@
     --display-one: clamp(2.5rem, -0.0733rem + 6.3692vw, 7.5rem);
   /* Font Size End */
   /* template main color */
-    --main-h: 196;
-    --main-s: 69%;
-    --main-l: 36%;
+    --main-h: 3;
+    --main-s: 71%;
+    --main-l: 56%;
     --main: var(--main-h) var(--main-s) var(--main-l);
   /* template main color */
-    --main-two-h: 224;
+    --main-two-h: 3;
     --main-two-s: 71%;
-    --main-two-l: 49%;
+    --main-two-l: 56%;
     --main-two: var(--main-two-h) var(--main-two-s) var(--main-two-l);
   /* White Color */
     --white: 0 0% 100%;
@@ -8471,7 +8471,7 @@ input:focus-visible {
 }
 
 .logo img {
-    max-width: 200px;
+    max-width: 120px;
 }
 
 @media screen and (max-width: 424px) {
@@ -9980,9 +9980,9 @@ input:focus-visible {
 /* ======================= Newsletter Css End =========================== */
 /* Home Two Css Start */
 .color-two:root {
-    --main-h: 224;
+    --main-h: 3;
     --main-s: 71%;
-    --main-l: 49%;
+    --main-l: 56%;
 }
 
 .font-exo h1,
