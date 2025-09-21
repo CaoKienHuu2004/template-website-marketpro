@@ -8474,11 +8474,18 @@ input:focus-visible {
     max-width: 120px;
 }
 
-@media screen and (max-width: 424px) {
-    .logo img {
-        max-width: 148px;
+@media screen and (max-width: 575px){
+     .logo img {
+        max-width: 100px;
     }
 }
+@media screen and (max-width: 424px) {
+    .logo img {
+        max-width: 100px;
+    }
+}
+
+
 /* Header Menu and Submenu Css Start */
 .nav-menu {
     gap: 32px;
