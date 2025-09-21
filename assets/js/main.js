@@ -225,7 +225,7 @@
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 2000,
-      speed: 1500,
+      speed: 5000,
       dots: false,
       pauseOnHover: true,
       arrows: true,
@@ -1364,7 +1364,7 @@
 
   // ========================= Header Sticky Js Start ==============
   $(window).on("scroll", function () {
-    if ($(window).scrollTop() >= 260) {
+    if ($(window).scrollTop() >= 200) {
       $(".header").addClass("fixed-header");
     } else {
       $(".header").removeClass("fixed-header");
