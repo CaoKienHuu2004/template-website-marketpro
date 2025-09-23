@@ -8575,7 +8575,7 @@ input:focus-visible {
 
 .has-submenu > a::before {
     position: absolute;
-    content: "\e136";
+    /* content: "\e136"; */
     inset-inline-end: 0;
     inset-block-start: 50%;
     transform: translateY(-50%);
