@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" class="color-two font-exo header-sticky-style">
 
@@ -81,26 +80,75 @@
       <div class="mobile-menu__menu">
         <!-- Nav Menu Start -->
         <ul class="nav-menu flex-align nav-menu--mobile">
-          
+
           <li class="nav-menu__item">
+            <form action="#" class="position-relative w-100">
+              <input type="text"
+                class="form-control text-sm fw-medium placeholder-italic shadow-none bg-neutral-30 placeholder-fw-medium placeholder-light py-10 ps-20 pe-60"
+                placeholder="Tìm kiếm sản phẩm, danh mục hoặc cửa hàng...">
+              <button type="submit"
+                class="position-absolute top-50 translate-middle-y text-main-600 end-0 me-36 text-xl line-height-1">
+                <i class="ph-bold ph-magnifying-glass"></i>
+              </button>
+            </form>
+          </li>
+          <li class="nav-menu__item pt-10">
+            <a href="#" class="nav-menu__link text-heading-two hover-text-main-600"><i
+                class="ph-bold ph-notepad text-main-600"></i> Tra cứu đơn hàng</a>
+          </li>
+
+
+
+          </li>
+          <li class="nav-menu__item">
+            <a href="#" class="nav-menu__link text-heading-two hover-text-main-600"><i
+                class="ph-bold ph-storefront text-main-600"></i> Truy cập bán hàng</a>
+          </li>
+          <li class="nav-menu__item">
+            <a href="#" class="nav-menu__link text-heading-two hover-text-main-600"><i
+                class="ph-bold ph-handshake text-main-600"></i> Đăng ký đối tác</a>
+          </li>
+          <li class="nav-menu__item">
+            <a href="#" class="nav-menu__link text-heading-two hover-text-main-600"><i
+                class="ph-bold ph-info text-main-600"></i> Giới thiệu về Siêu Thị Vina</a>
+          </li>
+          <li class="nav-menu__item">
+            <a href="contact.html" class="nav-menu__link text-heading-two hover-text-main-600"><i
+                class="ph-bold ph-chat-dots text-main-600"></i> Liên hệ hỗ trợ</a>
+          </li>
+          <li class="nav-menu__item pt-10">
             <a href="javascript:void(0)"
-                class="d-flex justify-content-center align-content-around text-center gap-10 fw-medium text-main-600 py-14 px-24 bg-main-50 rounded-pill line-height-1 hover-bg-main-600 hover-text-white">
-                <span class="d-lg-none d-flex line-height-1"><i class="ph-bold ph-user"></i></span>
-                Đăng nhập
-              </a>
-          
+              class="d-flex justify-content-center align-content-around text-center gap-10 fw-medium text-white py-14 px-24 bg-main-600 rounded-pill line-height-1 hover-bg-main-50 hover-text-main-600">
+              <span class="d-lg-none d-flex line-height-1"><i class="ph-bold ph-user"></i></span>
+              Đăng nhập / Đăng ký
+            </a>
+            
           </li>
-          <li class="nav-menu__item">
-            <a href="contact.html" class="nav-menu__link text-heading-two">Contact Us</a>
-          </li>
-          <li class="nav-menu__item">
-            <a href="contact.html" class="nav-menu__link text-heading-two">Contact Us</a>
-          </li>
-          <li class="nav-menu__item">
-            <a href="contact.html" class="nav-menu__link text-heading-two">Contact Us</a>
-          </li>
-          <li class="nav-menu__item">
-            <a href="contact.html" class="nav-menu__link text-heading-two">Contact Us</a>
+          <li class="on-hover-item nav-menu__item has-submenu pt-10">
+            <a href="javascript:void(0)"
+              class="d-flex justify-content-center flex-align align-content-around text-center gap-10 fw-medium text-white py-10 px-20 bg-success-600 rounded-pill line-height-1 hover-bg-success-500">
+              <span class="d-lg-none d-flex line-height-1"><img src="assets/images/thumbs/method.png" class="rounded-circle object-fit-cover" style="width: 25px; height: 25px" alt=""></span>
+              @lyhuu123
+            </a>
+            <ul class="on-hover-dropdown common-dropdown nav-submenu scroll-sm">
+              <li class="common-dropdown__item nav-submenu__item">
+                <a href="cart.html"
+                  class="common-dropdown__link nav-submenu__link text-heading-two hover-bg-neutral-100"><i class="ph-bold ph-heart text-main-600"></i> Yêu thích <span class="badge bg-success-600 rounded-circle">6</span></a>
+              </li>
+              <li class="common-dropdown__item nav-submenu__item">
+                <a href="wishlist.html"
+                  class="common-dropdown__link nav-submenu__link text-heading-two hover-bg-neutral-100"><i class="ph-bold ph-user text-main-600"></i> Tài khoản</a>
+              </li>
+              <li class="common-dropdown__item nav-submenu__item">
+                <a href="checkout.html"
+                  class="common-dropdown__link nav-submenu__link text-heading-two hover-bg-neutral-100"><i class="ph-bold ph-notepad text-main-600"></i> Đơn hàng của tôi</a>
+              </li>
+              <li class="common-dropdown__item nav-submenu__item">
+                <a href="checkout.html"
+                  class="common-dropdown__link nav-submenu__link text-heading-two hover-bg-neutral-100"><i class="ph-bold ph-sign-out text-main-600"></i> Đăng xuất</a>
+              </li>
+              
+            </ul>
           </li>
 
         </ul>
@@ -110,14 +158,59 @@
   </div>
   <!-- ==================== Mobile Menu End Here ==================== -->
 
-  <!-- ======================= Middle Top Start ========================= -->
+  <!-- ======================= Middle Top Mobile Start ========================= -->
   <div class="header-top bg-main-600 flex-between py-10 d-block d-lg-none">
     <div class="container">
       <div class="flex-between gap-8">
 
         <ul class="header-top__right flex-align flex-wrap gap-16">
-          <li class="">
-            <a href="#" class="text-white-6 text-sm hover-text-white"><i class="ph-bold ph-storefront"></i> Truy cập bán hàng</a>
+          <li class=" d-block on-hover-item text-white-6 flex-shrink-0">
+            <button class="category__button flex-align gap-4 text-sm text-white-6 rounded-top">
+              <span class="icon text-sm "><i class="ph ph-squares-four"></i></span>
+              <span class="">Danh mục</span>
+              <!-- <span class="arrow-icon text-sm d-flex"><i class="ph ph-caret-down"></i></span> -->
+            </button>
+
+            <div class="responsive-dropdown on-hover-dropdown common-dropdown nav-submenu p-0 submenus-submenu-wrapper">
+              <button
+                class="close-responsive-dropdown rounded-circle text-xl position-absolute inset-inline-end-0 inset-block-start-0 mt-4 me-8 d-lg-none d-flex">
+                <i class="ph ph-x"></i> </button>
+              <div class="logo px-16 d-lg-none d-block">
+                <a href="index.html" class="link">
+                  <img src="assets/images/logo/logo_nguyenban.png" alt="Logo">
+                </a>
+              </div>
+              <ul class="scroll-sm p-0 py-8 w-300 max-h-400 overflow-y-auto">
+                <li class="has-submenus-submenu">
+                  <a href="product-details-two.html"
+                    class="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0">
+                    <span class="text-xl d-flex"><i class="ph ph-carrot"></i></span>
+                    <span>Vegetables &amp; Fruit</span>
+                  </a>
+                </li>
+                <li class="has-submenus-submenu">
+                  <a href="product-details-two.html"
+                    class="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0">
+                    <span class="text-xl d-flex"><i class="ph ph-package"></i></span>
+                    <span>Vegetables &amp; Fruit</span>
+                  </a>
+                </li>
+                <li class="has-submenus-submenu">
+                  <a href="product-details-two.html"
+                    class="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0">
+                    <span class="text-xl d-flex"><i class="ph ph-carrot"></i></span>
+                    <span>Vegetables &amp; Fruit</span>
+                  </a>
+                </li>
+                <li class="has-submenus-submenu">
+                  <a href="product-details-two.html"
+                    class="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0">
+                    <span class="text-xl d-flex"><i class="ph ph-carrot"></i></span>
+                    <span>Vegetables &amp; Fruit</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </li>
 
         </ul>
@@ -151,7 +244,6 @@
 
         <ul class="header-top__right flex-align justify-content-end flex-wrap gap-16">
 
-          
           <li class="flex-align">
             <a href="wishlist.html" class="text-white-6 text-sm hover-text-white">
               <i class="ph-bold ph-shopping-cart"></i>
@@ -171,24 +263,23 @@
       <div class="flex-between flex-wrap gap-8">
 
         <ul class="header-top__right flex-align flex-wrap gap-16">
-          <li class="">
-            <a href="" class="text-white-6 text-sm hover-text-white">Truy cập bán hàng</a>
+          <li class="flex-align">
+            <a href="" class="text-white-6 text-sm hover-text-white text-center"><i
+                class="ph-bold ph-storefront text-white-6"></i> Truy cập bán hàng</a>
           </li>
-          <li class="">
-            <a href="" class="text-white-6 text-sm hover-text-white">Đăng ký cửa hàng</a>
+          <li class="flex-align">
+            <a href="" class="text-white-6 text-sm hover-text-white"><i class="ph-bold ph-handshake text-white-6"></i>
+              Đăng ký đối tác</a>
           </li>
-          <li class="">
-            <a href="#" class="text-white-6 text-sm hover-text-white pe-1">Theo dõi tại: </a>
-            <a href="https://www.facebook.com" class="text-white text-18 ps-1 pe-1 m-0">
-              <i class="ph-duotone ph-facebook-logo"></i>
+          <li class="flex-align">
+            <a href="#" class="text-white-6 text-sm hover-text-white pe-1"><i class="ph-bold ph-info text-white-6"></i>
+              Giới thiệu về Siêu Thị Vina </a>
+          </li>
+          <li class="flex-align">
+            <a href="contact.html" class="text-white-6 text-sm hover-text-white">
+              <i class="ph-bold ph-chat-dots"></i>
+              Liên hệ hỗ trợ
             </a>
-            <a href="https://www.tiktok.com" class="text-white text-18 ps-1 pe-1 m-0">
-              <i class="ph-duotone ph-tiktok-logo"></i>
-            </a>
-            <a href="https://www.instagram.com" class="text-white text-18 ps-1 pe-1 m-0">
-              <i class="ph-duotone ph-instagram-logo"></i>
-            </a>
-
           </li>
 
         </ul>
@@ -272,12 +363,7 @@
               <i class="ph-bold ph-notepad"></i>
               Tra cứu đơn hàng</a>
           </li>
-          <li class="flex-align">
-            <a href="contact.html" class="text-white-6 text-sm hover-text-white">
-              <i class="ph-bold ph-heart"></i>
-              Yêu thích
-            </a>
-          </li>
+
           <li class="flex-align">
             <a href="wishlist.html" class="text-white-6 text-sm hover-text-white">
               <i class="ph-bold ph-shopping-cart"></i>
@@ -354,7 +440,9 @@
         <div class="header-right flex-align">
 
           <!-- Dropdown Select Start -->
-          <ul class="header-top__right style-two style-three flex-align flex-wrap d-lg-block d-none">
+
+          <!-- ============Nút đăng nhập/đăng ký=============== -->
+          <!-- <ul class="header-top__right style-two style-three flex-align flex-wrap d-lg-block d-none">
             <li class="d-sm-flex d-none">
               <a href="javascript:void(0)"
                 class="d-flex align-content-around gap-10 fw-medium text-main-600 py-14 px-24 bg-main-50 rounded-pill line-height-1 hover-bg-main-600 hover-text-white">
@@ -362,7 +450,36 @@
                 Đăng nhập
               </a>
             </li>
-          </ul>
+          </ul> -->
+
+          <!-- ===============Nút đã đăng nhập============= -->
+          <div class="on-hover-item nav-menu__item has-submenu header-top__right style-two style-three flex-align flex-wrap d-lg-block d-none">
+            <a href="javascript:void(0)"
+              class="d-flex justify-content-center flex-align align-content-around text-center gap-10 fw-medium text-white py-10 px-20 bg-success-600 rounded-pill line-height-1 hover-bg-success-500 hover-text-white">
+              <span class="line-height-1"><img src="assets/images/thumbs/flag2.png" class="rounded-circle object-fit-cover" style="width: 25px; height: 25px" alt=""></span>
+              @lyhuu123
+            </a>
+            <ul class="on-hover-dropdown common-dropdown nav-submenu scroll-sm">
+              <li class="common-dropdown__item nav-submenu__item">
+                <a href="cart.html"
+                  class="common-dropdown__link nav-submenu__link text-heading-two hover-bg-neutral-100"><i class="ph-bold ph-heart text-main-600"></i> Yêu thích <span class="badge bg-success-600 rounded-circle">6</span></a>
+              </li>
+              <li class="common-dropdown__item nav-submenu__item">
+                <a href="wishlist.html"
+                  class="common-dropdown__link nav-submenu__link text-heading-two hover-bg-neutral-100"><i class="ph-bold ph-user text-main-600"></i> Tài khoản</a>
+              </li>
+              <li class="common-dropdown__item nav-submenu__item">
+                <a href="checkout.html"
+                  class="common-dropdown__link nav-submenu__link text-heading-two hover-bg-neutral-100"><i class="ph-bold ph-notepad text-main-600"></i> Đơn hàng của tôi</a>
+              </li>
+              <li class="common-dropdown__item nav-submenu__item">
+                <a href="checkout.html"
+                  class="common-dropdown__link nav-submenu__link text-heading-two hover-bg-neutral-100"><i class="ph-bold ph-sign-out text-main-600"></i> Đăng xuất</a>
+              </li>
+              
+            </ul>
+          </div>
+
           <!-- Dropdown Select End -->
           <button type="button" class="toggle-mobileMenu d-lg-none ms-3n text-gray-800 text-4xl d-flex">
             <i class="ph ph-list"></i>

@@ -584,13 +584,13 @@
 
     // ========================= hot deals Slider Js Start ==============
     $(".top-selling-product-slider").slick({
-      slidesToShow: 4,
+      slidesToShow: 5,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 1200,
       speed: 1500,
       dots: false,
-      pauseOnHover: true,
+      pauseOnHover: false,
       arrows: true,
       draggable: true,
       rtl: $("html").attr("dir") === "rtl" ? true : false,
