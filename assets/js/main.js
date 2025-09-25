@@ -306,7 +306,7 @@
     $(".feature-item-wrapper").slick({
       slidesToShow: 10,
       slidesToScroll: 1,
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 2000,
       speed: 1500,
       dots: false,
@@ -439,17 +439,17 @@
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 4000,
-      speed: 1500,
+      autoplaySpeed: 2500,
+      speed: 2500,
       dots: true,
-      pauseOnHover: true,
+      pauseOnHover: false,
       arrows: true,
       draggable: true,
       rtl: $("html").attr("dir") === "rtl" ? true : false,
       speed: 900,
       infinite: true,
-      fade: true,
-      cssEase: "linear",
+      // fade: true,
+      // cssEase: "linear",
       nextArrow: "#banner-next",
       prevArrow: "#banner-prev",
       responsive: [
@@ -598,6 +598,48 @@
       infinite: true,
       nextArrow: "#top-selling-next",
       prevArrow: "#top-selling-prev",
+      responsive: [
+        {
+          breakpoint: 1399,
+          settings: {
+            slidesToShow: 3,
+            arrows: false,
+          },
+        },
+        {
+          breakpoint: 1199,
+          settings: {
+            slidesToShow: 2,
+            arrows: false,
+          },
+        },
+        {
+          breakpoint: 575,
+          settings: {
+            slidesToShow: 1,
+            arrows: false,
+          },
+        },
+      ],
+    });
+    // ========================= hot deals Slider Js End ===================
+
+    // ========================= hot deals Slider Js Start ==============
+    $(".top-brand-slider").slick({
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 1200,
+      speed: 1500,
+      dots: false,
+      pauseOnHover: false,
+      arrows: true,
+      draggable: true,
+      rtl: $("html").attr("dir") === "rtl" ? true : false,
+      speed: 900,
+      infinite: true,
+      nextArrow: "#top-brand-next",
+      prevArrow: "#top-brand-prev",
       responsive: [
         {
           breakpoint: 1399,
