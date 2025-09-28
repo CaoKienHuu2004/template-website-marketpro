@@ -667,6 +667,48 @@
     // ========================= hot deals Slider Js End ===================
 
     // ========================= hot deals Slider Js Start ==============
+    $(".topic-slider").slick({
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 1200,
+      speed: 1500,
+      dots: false,
+      pauseOnHover: false,
+      arrows: true,
+      draggable: true,
+      rtl: $("html").attr("dir") === "rtl" ? true : false,
+      speed: 900,
+      infinite: true,
+      nextArrow: "#topic-next",
+      prevArrow: "#topic-prev",
+      responsive: [
+        {
+          breakpoint: 1399,
+          settings: {
+            slidesToShow: 3,
+            arrows: false,
+          },
+        },
+        {
+          breakpoint: 1199,
+          settings: {
+            slidesToShow: 2,
+            arrows: false,
+          },
+        },
+        {
+          breakpoint: 575,
+          settings: {
+            slidesToShow: 1,
+            arrows: false,
+          },
+        },
+      ],
+    });
+    // ========================= hot deals Slider Js End ===================
+
+    // ========================= hot deals Slider Js Start ==============
     $(".organic-food__slider").slick({
       slidesToShow: 6,
       slidesToScroll: 1,
