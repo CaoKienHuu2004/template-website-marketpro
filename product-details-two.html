@@ -55,7 +55,7 @@
       class="search-box__close position-absolute inset-block-start-0 inset-inline-end-0 m-16 w-48 h-48 border border-gray-100 rounded-circle flex-center text-white hover-text-gray-800 hover-bg-white text-2xl transition-1">
       <i class="ph ph-x"></i>
     </button>
-    <div class="container">
+    <div class="container container-lg">
       <div class="position-relative">
         <input type="text" class="form-control py-16 px-24 text-xl rounded-pill pe-64"
           placeholder="Search for a product or brand" />
@@ -122,32 +122,38 @@
               <span class="d-lg-none d-flex line-height-1"><i class="ph-bold ph-user"></i></span>
               Đăng nhập / Đăng ký
             </a>
-            
+
           </li>
           <li class="on-hover-item nav-menu__item has-submenu pt-10">
             <a href="javascript:void(0)"
               class="d-flex justify-content-center flex-align align-content-around text-center gap-10 fw-medium text-white py-10 px-20 bg-success-600 rounded-pill line-height-1 hover-bg-success-500">
-              <span class="d-lg-none d-flex line-height-1"><img src="assets/images/thumbs/method.png" class="rounded-circle object-fit-cover" style="width: 25px; height: 25px" alt=""></span>
-              @lyhuu123
+              <span class="d-lg-none d-flex line-height-1"><img src="assets/images/thumbs/method.png"
+                  class="rounded-circle object-fit-cover" style="width: 25px; height: 25px" alt=""></span>
+              lyhuu123
             </a>
             <ul class="on-hover-dropdown common-dropdown nav-submenu scroll-sm">
               <li class="common-dropdown__item nav-submenu__item">
                 <a href="cart.html"
-                  class="common-dropdown__link nav-submenu__link text-heading-two hover-bg-neutral-100"><i class="ph-bold ph-heart text-main-600"></i> Yêu thích <span class="badge bg-success-600 rounded-circle">6</span></a>
+                  class="common-dropdown__link nav-submenu__link text-heading-two hover-bg-neutral-100"><i
+                    class="ph-bold ph-heart text-main-600"></i> Yêu thích <span
+                    class="badge bg-success-600 rounded-circle">6</span></a>
               </li>
               <li class="common-dropdown__item nav-submenu__item">
                 <a href="wishlist.html"
-                  class="common-dropdown__link nav-submenu__link text-heading-two hover-bg-neutral-100"><i class="ph-bold ph-user text-main-600"></i> Tài khoản</a>
+                  class="common-dropdown__link nav-submenu__link text-heading-two hover-bg-neutral-100"><i
+                    class="ph-bold ph-user text-main-600"></i> Tài khoản</a>
               </li>
               <li class="common-dropdown__item nav-submenu__item">
                 <a href="checkout.html"
-                  class="common-dropdown__link nav-submenu__link text-heading-two hover-bg-neutral-100"><i class="ph-bold ph-notepad text-main-600"></i> Đơn hàng của tôi</a>
+                  class="common-dropdown__link nav-submenu__link text-heading-two hover-bg-neutral-100"><i
+                    class="ph-bold ph-notepad text-main-600"></i> Đơn hàng của tôi</a>
               </li>
               <li class="common-dropdown__item nav-submenu__item">
                 <a href="checkout.html"
-                  class="common-dropdown__link nav-submenu__link text-heading-two hover-bg-neutral-100"><i class="ph-bold ph-sign-out text-main-600"></i> Đăng xuất</a>
+                  class="common-dropdown__link nav-submenu__link text-heading-two hover-bg-neutral-100"><i
+                    class="ph-bold ph-sign-out text-main-600"></i> Đăng xuất</a>
               </li>
-              
+
             </ul>
           </li>
 
@@ -160,7 +166,7 @@
 
   <!-- ======================= Middle Top Mobile Start ========================= -->
   <div class="header-top bg-main-600 flex-between py-10 d-block d-lg-none">
-    <div class="container">
+    <div class="container container-lg">
       <div class="flex-between gap-8">
 
         <ul class="header-top__right flex-align flex-wrap gap-16">
@@ -258,8 +264,8 @@
   <!-- ======================= Middle Top End ========================= -->
 
   <!-- ======================= Middle Top Start ========================= -->
-  <div class="header-top bg-main-600 flex-between py-10 d-none d-lg-block">
-    <div class="container">
+  <div class="header-top bg-main-600 flex-between py-10 d-none d-lg-block pz100">
+    <div class="container container-lg">
       <div class="flex-between flex-wrap gap-8">
 
         <ul class="header-top__right flex-align flex-wrap gap-16">
@@ -378,8 +384,8 @@
   <!-- ======================= Middle Top End ========================= -->
 
   <!-- ======================= Middle Header Two Start ========================= -->
-  <header class="header border-bottom border-neutral-40 pt-14 pb-14">
-    <div class="container">
+  <header class="header border-bottom border-neutral-40 pt-16 pb-10 pz99">
+    <div class="container container-lg">
       <nav class="header-inner flex-between gap-16">
         <!-- Logo Start -->
         <div class="logo">
@@ -421,15 +427,26 @@
               <a href="contact.html" class="nav-menu__link text-heading-two">Contact Us</a>
             </li>
           </ul> -->
-          <form action="#" class="position-relative ms-20 w-100 d-md-block d-none">
-            <input type="text"
-              class="form-control fw-medium placeholder-italic shadow-none bg-neutral-30 placeholder-fw-medium placeholder-light py-16 ps-30 pe-60"
-              placeholder="Tìm kiếm sản phẩm, danh mục hoặc cửa hàng...">
-            <button type="submit"
-              class="position-absolute top-50 translate-middle-y text-main-600 end-0 me-36 text-xl line-height-1">
-              <i class="ph-bold ph-magnifying-glass"></i>
-            </button>
-          </form>
+          <div class="mx-20">
+            <form action="#" class="position-relative w-100 d-md-block d-none">
+              <input type="text"
+                class="form-control text-sm fw-normal placeholder-italic shadow-none bg-neutral-30 placeholder-fw-normal placeholder-light py-10 ps-30 pe-60"
+                placeholder="Thuốc giảm cân dành cho người béo....">
+              <button type="submit"
+                class="position-absolute top-50 translate-middle-y text-main-600 end-0 me-36 text-xl line-height-1">
+                <i class="ph-bold ph-magnifying-glass"></i>
+              </button>
+            </form>
+
+            <div class="flex-align mt-10 gap-12 title">
+              <a href="#" class="text-sm link text-gray-600 hover-text-main-600 fst-italic">Máy massage</a>
+              <a href="#" class="text-sm link text-gray-600 hover-text-main-600 fst-italic">điện gia dụng</a>
+              <a href="#" class="text-sm link text-gray-600 hover-text-main-600 fst-italic">mẹ và bé</a>
+              <a href="#" class="text-sm link text-gray-600 hover-text-main-600 fst-italic">móc khóa minecraft</a>
+              <a href="#" class="text-sm link text-gray-600 hover-text-main-600 fst-italic">điện nội thất</a>
+            </div>
+          </div>
+
           <!-- Nav Menu End -->
         </div>
         <!-- Menu End  -->
@@ -453,30 +470,37 @@
           </ul> -->
 
           <!-- ===============Nút đã đăng nhập============= -->
-          <div class="on-hover-item nav-menu__item has-submenu header-top__right style-two style-three flex-align flex-wrap d-lg-block d-none">
+          <div
+            class="on-hover-item nav-menu__item has-submenu header-top__right style-two style-three flex-align flex-wrap d-lg-block d-none">
             <a href="javascript:void(0)"
-              class="d-flex justify-content-center flex-align align-content-around text-center gap-10 fw-medium text-white py-10 px-20 bg-success-600 rounded-pill line-height-1 hover-bg-success-500 hover-text-white">
-              <span class="line-height-1"><img src="assets/images/thumbs/flag2.png" class="rounded-circle object-fit-cover" style="width: 25px; height: 25px" alt=""></span>
-              @lyhuu123
+              class="d-flex justify-content-center flex-align align-content-around text-center gap-10 fw-medium text-gray-600 py-5 px-10 rounded-pill line-height-1 hover-text-main-600">
+              <span class="line-height-1"><img src="assets/images/thumbs/flag2.png"
+                  class="rounded-circle object-fit-cover" style="width: 25px; height: 25px" alt=""></span>
+              lyhuu123
             </a>
             <ul class="on-hover-dropdown common-dropdown nav-submenu scroll-sm">
               <li class="common-dropdown__item nav-submenu__item">
                 <a href="cart.html"
-                  class="common-dropdown__link nav-submenu__link text-heading-two hover-bg-neutral-100"><i class="ph-bold ph-heart text-main-600"></i> Yêu thích <span class="badge bg-success-600 rounded-circle">6</span></a>
+                  class="common-dropdown__link nav-submenu__link text-heading-two hover-bg-neutral-100"><i
+                    class="ph-bold ph-heart text-main-600"></i> Yêu thích <span
+                    class="badge bg-success-600 rounded-circle">6</span></a>
               </li>
               <li class="common-dropdown__item nav-submenu__item">
                 <a href="wishlist.html"
-                  class="common-dropdown__link nav-submenu__link text-heading-two hover-bg-neutral-100"><i class="ph-bold ph-user text-main-600"></i> Tài khoản</a>
+                  class="common-dropdown__link nav-submenu__link text-heading-two hover-bg-neutral-100"><i
+                    class="ph-bold ph-user text-main-600"></i> Tài khoản</a>
               </li>
               <li class="common-dropdown__item nav-submenu__item">
                 <a href="checkout.html"
-                  class="common-dropdown__link nav-submenu__link text-heading-two hover-bg-neutral-100"><i class="ph-bold ph-notepad text-main-600"></i> Đơn hàng của tôi</a>
+                  class="common-dropdown__link nav-submenu__link text-heading-two hover-bg-neutral-100"><i
+                    class="ph-bold ph-notepad text-main-600"></i> Đơn hàng của tôi</a>
               </li>
               <li class="common-dropdown__item nav-submenu__item">
                 <a href="checkout.html"
-                  class="common-dropdown__link nav-submenu__link text-heading-two hover-bg-neutral-100"><i class="ph-bold ph-sign-out text-main-600"></i> Đăng xuất</a>
+                  class="common-dropdown__link nav-submenu__link text-heading-two hover-bg-neutral-100"><i
+                    class="ph-bold ph-sign-out text-main-600"></i> Đăng xuất</a>
               </li>
-              
+
             </ul>
           </div>
 
@@ -492,8 +516,8 @@
   <!-- ======================= Middle Header Two End ========================= -->
 
     <!-- ========================= Breadcrumb Start =============================== -->
-<div class="breadcrumb mb-0 pt-40 bg-main-two-60">
-    <div class="container">
+<!-- <div class="breadcrumb mb-0 pt-40 bg-main-two-60">
+    <div class="container container-lg">
         <div class="breadcrumb-wrapper flex-between flex-wrap gap-16">
             <h6 class="mb-0">Thông tin sản phẩm</h6>
             <ul class="flex-align gap-8 flex-wrap">
@@ -510,12 +534,12 @@
             </ul>
         </div>
     </div>
-</div>
+</div> -->
 <!-- ========================= Breadcrumb End =============================== -->
 
     <!-- ========================== Product Details Two Start =========================== -->
 <section class="product-details py-40">
-    <div class="container">
+    <div class="container container-lg">
         <div class="row gy-4">
             <div class="col-xl-9">
                 <div class="row gy-4">
@@ -585,7 +609,7 @@
                         <div class="product-details__content">
                             
                             <div class="flex-center mb-24 flex-wrap gap-16 bg-color-one rounded-8 py-16 px-24 position-relative z-1 ">
-                                <img src="assets/images/bg/details-offer-bg.png" alt="" class="position-absolute inset-block-start-0 inset-inline-start-0 w-100 z-n1 object-fit-cover">
+                                <img src="assets/images/bg/details-offer-bg.png" alt="" class="position-absolute inset-block-start-0 inset-inline-start-0 rounded-8 h-100  z-n1 object-fit-cover">
                                 <div class="flex-align gap-16">
                                     <span class="text-white text-sm">Special Offer:</span>
                                 </div>
@@ -1113,7 +1137,7 @@
 
     <!-- ========================== Similar Product Start ============================= -->
 <section class="new-arrival pb-80">
-    <div class="container">
+    <div class="container container-lg">
         <div class="section-heading">
             <div class="flex-between flex-wrap gap-8">
                 <h5 class="mb-0">Có thể bạn sẽ thích</h5>
@@ -1362,7 +1386,7 @@
     
 <!-- ==================== Footer Start Here ==================== -->
 <footer class="footer py-120">
-    <div class="container">
+    <div class="container container-lg">
         <div class="footer-item-wrapper d-flex align-items-start flex-wrap">
             <div class="footer-item" data-aos="fade-up" data-aos-duration="200">
                 <div class="max-w-340">
@@ -1505,7 +1529,7 @@
 
 <!-- bottom Footer -->
 <div class="bottom-footer py-8">
-    <div class="container">
+    <div class="container container-lg">
         <div class="bottom-footer__inner flex-between flex-wrap gap-16 py-16 border-top border-neutral-50">
             <p class="bottom-footer__text text-heading wow fadeInLeft fw-medium">Copyright &copy; <span class="text-success-600 fw-semibold">2025</span> Ui-drops All Rights Reserved </p>
             <div class="flex-align gap-8 flex-wrap wow fadeInRight">
