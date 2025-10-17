@@ -4351,10 +4351,37 @@ input:focus-visible {
 @media (min-width: 1200px){
     .container-lg {
     transform: scale(0.9);
-    transform-origin: top center;
-    
+    transform-origin: top center;}
 
-}
+    .pr-20{
+        padding: var(--size-20) !important;
+    }
+    
+    .fix-scale-20{
+        margin-bottom: -20px
+    }
+
+    .fix-scale-25{
+        margin-bottom: -25px
+    }
+
+    .fix-scale-30{
+        margin-bottom: -30px
+    }
+
+    .fix-scale-35{
+        margin-bottom: -35px
+    }
+
+    .fix-scale-40{
+        margin-bottom: -40px
+    }
+
+    .fix-scale-80{
+        margin-bottom: -80px
+    }
+
+
     .pz99{
         position: relative;
         z-index: 99;
@@ -9619,7 +9646,7 @@ input:focus-visible {
     border: 1px solid var(--gray-100);
     visibility: hidden;
     opacity: 0;
-    top: 54px;
+    top: 25px;
 }
 
 .feature .arrow-center .slick-arrow.slick-next {
@@ -9681,8 +9708,8 @@ input:focus-visible {
 }
 
 .feature-item__thumb {
-    max-width: 120px;
-    max-height: 120px;
+    max-width: 70px;
+    max-height: 70px;
     background-color: var(--main-50);
     aspect-ratio: 1;
     margin: 0 auto;
@@ -9706,6 +9733,48 @@ input:focus-visible {
     width: 120px !important;
 }
 
+.card-overlay{
+    position: absolute; /* Che phủ toàn bộ card */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0%,      
+        rgba(0, 0, 0, 0) 50%,   
+        rgba(0, 0, 0, 0.7) 100%   
+    );
+    backdrop-filter: blur(0.6px); 
+    -webkit-backdrop-filter: blur(0.6px); /* Hỗ trợ Safari */
+    z-index: 2; /* Đặt trên ảnh nền, dưới nội dung */
+    transition: opacity 0.2s linear, backdrop-filter 0.4s ease;
+}
+
+.p-card:hover .card-overlay{
+    opacity: 0;
+    backdrop-filter: blur(0px); 
+    -webkit-backdrop-filter: blur(0px); /* Hỗ trợ Safari */
+    z-index: 2; /* Đặt trên ảnh nền, dưới nội dung */
+
+    /* transition: 0.1s linear; */
+}
+
+.card-content {
+    position: relative; /* Đặt trên overlay và ảnh nền */
+    z-index: 3; /* Đảm bảo nội dung hiển thị trên cùng */
+    color: white; /* Màu chữ trắng để nổi bật trên nền tối */
+    /* text-align: center; */
+    padding: 20px;
+    display: flex; /* Dùng flexbox để căn chỉnh nội dung */
+    flex-direction: column;
+    justify-content: flex-end; /* Đẩy nội dung xuống cuối card */
+    height: 100%; /* Chiếm toàn bộ chiều cao để justify-content hoạt động */
+}
+
+.p-card:hover .card-content {
+    opacity: 0;
+}
 /* ============================ Feature Section Css End =============================== */
 /* ======================== promotional banner Css Start ============================== */
 @media screen and (max-width: 1399px) {

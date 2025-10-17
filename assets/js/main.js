@@ -322,13 +322,13 @@
         {
           breakpoint: 1699,
           settings: {
-            slidesToShow: 9,
+            slidesToShow: 10,
           },
         },
         {
           breakpoint: 1599,
           settings: {
-            slidesToShow: 8,
+            slidesToShow: 10,
           },
         },
         {
@@ -340,25 +340,25 @@
         {
           breakpoint: 992,
           settings: {
-            slidesToShow: 5,
+            slidesToShow: 6,
           },
         },
         {
           breakpoint: 768,
           settings: {
-            slidesToShow: 4,
+            slidesToShow: 5,
           },
         },
         {
           breakpoint: 575,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 5,
           },
         },
         {
           breakpoint: 424,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 4,
           },
         },
         {
@@ -483,7 +483,7 @@
         {
           breakpoint: 991,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 2,
             arrows: false,
           },
         },
@@ -534,21 +534,21 @@
     // ========================= hot deals Slider Js End ===================
 
     // ========================= hot deals Slider Js Start ==============
-    $(".deals-week-slider").slick({
+    $(".gift-event-slider").slick({
       slidesToShow: 6,
       slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 2000,
-      speed: 1500,
+      autoplay: false,
+      autoplaySpeed: 1500,
+      speed: 1000,
       dots: false,
-      pauseOnHover: true,
+      pauseOnHover: false,
       arrows: true,
-      draggable: true,
+      draggable: false,
       rtl: $("html").attr("dir") === "rtl" ? true : false,
       speed: 900,
       infinite: true,
-      nextArrow: "#deal-week-next",
-      prevArrow: "#deal-week-prev",
+      nextArrow: "#gift-event-next",
+      prevArrow: "#gift-event-prev",
       responsive: [
         {
           breakpoint: 1599,
@@ -574,7 +574,7 @@
         {
           breakpoint: 575,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 2,
             arrows: false,
           },
         },
@@ -616,7 +616,7 @@
         {
           breakpoint: 575,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 2,
             arrows: false,
           },
         },
