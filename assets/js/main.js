@@ -628,7 +628,7 @@
     $(".top-brand-slider").slick({
       slidesToShow: 5,
       slidesToScroll: 1,
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 1200,
       speed: 1500,
       dots: false,
@@ -937,7 +937,7 @@
     $(".featured-product-slider").slick({
       slidesToShow: 2,
       slidesToScroll: 1,
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 2000,
       speed: 1500,
       dots: false,

@@ -4350,7 +4350,7 @@ input:focus-visible {
 }
 @media (min-width: 1200px){
     .container-lg {
-    transform: scale(0.9);
+    transform: scale(0.88);
     transform-origin: top center;}
 
     .pr-20{
